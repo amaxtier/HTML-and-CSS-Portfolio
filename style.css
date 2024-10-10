@@ -4,16 +4,11 @@ body {
     height: 100vh;
     background-color: #E2DFD2;
     color: black;
-
 }
 
 h1, h2 {
     color: black;
     text-align: center;
-}
-
-h3 {
-    justify-content: center;
 }
 
 ul {
@@ -22,9 +17,8 @@ ul {
 }
 
 svg {
-    padding: 0px;
-    height: 18px;
-    width: 50px;
+    height: 25px;
+    width: 46px;
     position: relative;
     top: 3px;
 }
@@ -37,7 +31,7 @@ img {
 } 
 
 p {
-    margin: 0; /* Elimina el margen de los párrafos */
+    margin: 0;
 }
 
 a {
@@ -97,7 +91,6 @@ nav {
     
 }
 
-
 .nav-list > li {
     text-align: center;
     padding: 0.5rem;
@@ -134,8 +127,8 @@ nav {
     border: 5px solid black;
     border-radius: 50%;
 }
+
 .contact-me > *{
-    text-align: start;
     margin: 0.4rem;
 } 
 
@@ -146,7 +139,8 @@ nav {
     border-radius: 12px;
     width: 30%;
     text-align: justify;
-    padding: 10px;
+    padding: 20px;
+    padding-top: 0px;
 }
 .about-me > h3 {
     text-align: center;
@@ -243,9 +237,9 @@ footer > img {
     }
 
     .nav-list > li {
-        text-align: start;
+        text-align: center;
         padding: 0.5rem;
-        margin: 0px;
+        margin: 0rem 0.2rem;
         min-width: min-content;
     }
 }
