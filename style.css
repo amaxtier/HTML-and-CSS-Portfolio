@@ -48,7 +48,7 @@ a {
 .grow { 
     transition: all .2s ease-in-out; 
 }
-  
+
 .grow:hover { 
     transform: scale(1.1); 
 }
@@ -170,7 +170,7 @@ nav {
     margin-bottom: 5px;
 }
 
-.job-responsability {
+.job-responsibility {
     list-style: disc;
     padding-left: 20px;
 }
@@ -225,5 +225,34 @@ footer {
 
 footer > img {
     height: 10px;
-    margin-top: 5px;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media (max-width: 1360px) {
+    .grid {
+        grid-template-columns: repeat(3, 325px);
+        gap: 15px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .grid {
+        grid-template-columns: repeat(2, 325px);
+        gap: 15px;
+    }
+
+    .nav-list > li {
+        text-align: start;
+        padding: 0.5rem;
+        margin: 0px;
+        min-width: min-content;
+    }
+}
+
+@media (max-width: 660px) {
+    .grid {
+        grid-template-columns: repeat(1, 325px);
+        gap: 15px;
+    }
 }
