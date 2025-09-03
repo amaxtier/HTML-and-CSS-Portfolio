@@ -69,6 +69,7 @@ a {
     border-bottom: 1px solid black;
     box-shadow: 10px 10px 15px #697565;
     border-radius: 12px;
+    margin-top: 10px;
 }
 
 .row {
@@ -141,7 +142,7 @@ nav {
     min-width: 310px;
     border: 2px solid black;
     border-radius: 12px;
-    width: 30%;
+    width: 65ch;
     text-align: justify;
     padding: 20px;
     padding-top: 0px;
@@ -221,10 +222,8 @@ footer {
     text-align: center;
 }
 
-footer > img {
-    height: 10px;
-    padding: 0px;
-    margin: 0px;
+footer > svg {
+    height: 15px;
 }
 
 @media (max-width: 1360px) {
@@ -249,6 +248,22 @@ footer > img {
 }
 
 @media (max-width: 660px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    .nav-list > li {
+        margin: 0rem 1rem;
+    }
+
     .grid {
         grid-template-columns: repeat(1, 325px);
         gap: 15px;
